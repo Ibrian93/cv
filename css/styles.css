@@ -1,0 +1,40 @@
+/* Title Section */
+
+section#title {
+    font-family: 'Open Sans', sans-serif;
+}
+#title .container {
+    text-align: center;
+}
+
+
+/* Introduction Section */
+#introduction .welcome, #experience .experience{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#introduction .row div {
+    margin-bottom: 20px;
+}
+
+/* Experience section */
+#experience div.row{
+    margin-bottom: 50px;
+}
+
+
+/* Background classes */
+.background {
+    padding: 150px 0;
+}
+
+.background-ciano {
+    background-color: #4e89ae;
+    color: #faf3dd
+}
+
+.background-white {
+    background-color: #faf3dd;
+    color: #00416d;
+}
