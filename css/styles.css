@@ -1,9 +1,26 @@
 /* Title Section */
+a {
+    color: inherit;
+}
 
-section#title {
+body {
     font-family: 'Open Sans', sans-serif;
 }
-#title .container {
+
+hr {
+    border-top: 3px solid rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+
+#title h1 {
+    font-weight: bold;
+}
+
+#title h3 {
+    font-weight: 400;
+}
+
+#title .container, #contact-me .container {
     text-align: center;
 }
 
@@ -23,6 +40,24 @@ section#title {
     margin-bottom: 50px;
 }
 
+#experience .experience, #experience h4{
+    color: #FAECDC;
+}
+
+#experience h2 {
+    font-size: 40px;
+}
+
+#experience h3 {
+    color: #FABB70;
+}
+
+/* Footer Section */
+#contact-me ul li .icon{
+    font-size: 35px;
+    margin-right: 20px;
+}
+
 
 /* Background classes */
 .background {
@@ -30,11 +65,16 @@ section#title {
 }
 
 .background-ciano {
-    background-color: #4e89ae;
-    color: #faf3dd
+    background-color: #3A88AD;
+    color: #FABB70
+}
+
+.background-ciano-experience {
+    background-color: #3A88AD;
+    color: #000;
 }
 
 .background-white {
-    background-color: #faf3dd;
-    color: #00416d;
+    background-color: #FAECDC;
+    color: #3A88AD;
 }
