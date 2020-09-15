@@ -3,8 +3,10 @@ a {
     color: inherit;
 }
 
-body {
+body, html {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 100%;
 }
 
 hr {
@@ -20,14 +22,16 @@ hr {
     font-weight: 400;
 }
 
-#title .container, #contact-me .container {
-    text-align: center;
+
+@media (min-width: 1024px) {
+    #title h1, #title h3 {
+        font-size: 5rem;
+    }
 }
 
 
 /* Introduction Section */
 #introduction .welcome, #experience .experience{
-    text-align: center;
     margin-bottom: 70px;
 }
 
@@ -50,12 +54,21 @@ hr {
 
 #experience h3 {
     color: #FABB70;
+    text-align: left;
+}
+
+h4, p {
+    text-align: left;
 }
 
 /* Footer Section */
 #contact-me ul li .icon{
     font-size: 35px;
     margin-right: 20px;
+}
+
+#contact-me p {
+    text-align: center;
 }
 
 
@@ -77,4 +90,17 @@ hr {
 .background-white {
     background-color: #FAECDC;
     color: #3A88AD;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/background.jpg");
+
+  /* Half height */
+  height: 75%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
