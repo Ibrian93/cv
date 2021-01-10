@@ -1,7 +1,3 @@
-//$("#title h1").remove();
-//$("#title h3").remove();
-
-//$("#title").text("Hello!");
 var titleFadeOut = false;
 
 $(document).ready(function() {
