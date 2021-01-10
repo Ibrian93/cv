@@ -73,23 +73,24 @@ h4, p {
 
 
 /* Background classes */
+
 .background {
     padding: 150px 0;
 }
 
-.background-ciano {
+.background-black {
     background-color: #000000;
-    color: #ffffff
+    color: #ffffff;
 }
 
-.background-ciano-experience {
-    background-color: #3A88AD;
+.background-experience {
+    background-color: #000000;
     color: #000;
 }
 
 .background-white {
-    background-color: #FAECDC;
-    color: #3A88AD;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .bg {
