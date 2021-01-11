@@ -1,8 +1,9 @@
+var timeFade = 1750;
+
 $(document).ready(function() {
-    function complete() {
-        $("#title h1").text("Welcome to my Website").fadeIn(3000);
-    }
-    $("#title h1").hide().fadeIn(3000).fadeOut(3000, complete);
+    $("h1.presentation").hide().fadeIn(timeFade).fadeOut(timeFade, complete);
 });
 
-    
+function complete() {
+    $("h1.presentation").text("Welcome to my Website!").fadeIn(timeFade);
+}

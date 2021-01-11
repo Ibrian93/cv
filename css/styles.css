@@ -14,21 +14,9 @@ hr {
     margin-bottom: 20px;
 }
 
-#title h1 {
+h1.presentation {
     font-weight: bold;
 }
-
-#title h3 {
-    font-weight: 300;
-}
-
-
-@media (min-width: 1024px) {
-    #title h1, #title h3 {
-        font-size: 5rem;
-    }
-}
-
 
 /* Introduction Section */
 #introduction .welcome, #experience .experience{
@@ -74,8 +62,18 @@ h4, p {
 
 /* Background classes */
 
+
+.background #title {
+    position: absolute;
+    z-index: -1;
+}
+
+.background.title{
+    padding: 300px 0;
+}
+
 .background {
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .background-black {
@@ -91,17 +89,4 @@ h4, p {
 .background-white {
     background-color: #FFFFFF;
     color: #000000;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("../images/background.jpg");
-
-  /* Half height */
-  height: 75%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
