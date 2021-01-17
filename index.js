@@ -7,3 +7,4 @@ $(document).ready(function() {
 function complete() {
     $("h1.presentation").text("Welcome to my Website!").fadeIn(timeFade);
 }
+
