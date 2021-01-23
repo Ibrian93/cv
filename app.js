@@ -3,12 +3,14 @@ const https = require('https');
 
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.use(express.static("public"));
 
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000, function() {
+app.listen(PORT, function() {
     console.log("Server is up and running");
 });
